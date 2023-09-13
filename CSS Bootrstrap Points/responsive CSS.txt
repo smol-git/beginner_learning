@@ -1,0 +1,47 @@
+how to size elements on a website relative to other elements on the page.
+
+Let’s review what you learned:
+
+
+> The unit of em sizes font relative to the font size of a parent element.
+
+> The unit of rem sizes font relative to the font size of a root element. That root element is the <html> element.
+
+> Percentages are commonly used to size box-model features, like the width, height, padding, or margin of an element.
+
+> When percentages are used to size width and height, child elements will be sized relative to the dimensions of their parent (remember that parent dimensions must first be set).
+
+> Percentages can be used to set padding and margin. Horizontal and vertical padding and margin are set relative to the width of a parent element.
+
+> The minimum and maximum width of elements can be set using min-width and max-width.
+
+> The minimum and maximum height of elements can be set using min-height and max-height.
+
+> When the height of an image or video is set, then its width can be set to auto so that the media scales proportionally. Reversing these two properties and values will also achieve the same result.
+
+> A background image of an HTML element will scale proportionally when its background-size property is set to cover.
+
+
+
+
+
+
+how to change the way a website appears on different screens with media queries and breakpoints
+
+Throughout this lesson, you learned:
+
+> When a website responds to the size of the screen it’s viewed on, it’s called a responsive website.
+
+> You can write media queries to help with different screen sizes.
+
+> Adding the viewport <meta> tag to our code allows us to control the width and scaling of the viewport so that it’s sized and scaled correctly on all devices.
+
+> Media queries require media features. Media features are the conditions that must be met to render the CSS within a media query.
+
+> Media features can detect many aspects of a user’s browser, including the screen’s width, height, resolution, orientation, and more.
+
+> The and operator requires multiple media features to be true at once.
+
+> A comma separated list of media features only requires one media feature to be true for the code within to be applied.
+
+> The best practice for identifying where media queries should be set is by resizing the browser to determine where the content naturally breaks. Natural breakpoints are found by resizing the browser.
